@@ -37,7 +37,7 @@ export default function LoginPage() {
   return (
     <div className="min-h-screen bg-black flex items-center justify-center px-4">
       <a
-        href="https://aivoracreativeagency.com/#moodboard"
+        href="https://aivoracreativeagency.com/?skip=1#moodboard"
         className="fixed top-6 left-6 z-20 flex items-center gap-2 text-gray-500 hover:text-white text-xs tracking-widest uppercase transition-colors"
       >
         <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">

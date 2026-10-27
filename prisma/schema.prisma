@@ -125,6 +125,7 @@ model Certificate {
   courseTitle String
   studentName String
   code        String   @unique
+  pdfUrl      String?
   issuedAt    DateTime @default(now())
 
   user        User     @relation(fields: [userId], references: [id], onDelete: Cascade)

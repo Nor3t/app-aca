@@ -26,7 +26,7 @@ export function middleware(req: NextRequest) {
   if (LIBRES.some((p) => pathname === p || pathname.startsWith(p + "/"))) return NextResponse.next();
 
   if (pathname.startsWith("/api/")) {
-    return NextResponse.json({ error: "La App ACA está en mantenimiento" }, { status: 503 });
+    return NextResponse.json({ error: "La Plataforma ACA está en mantenimiento" }, { status: 503 });
   }
 
   const url = req.nextUrl.clone();
